@@ -1,0 +1,58 @@
+/* FLEX */
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  flex: 1;
+}
+.column {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-evenly {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* BUTTON */
+
+.btn {
+  color: #ffffff;
+  font-size: 1rem;
+  background: #17c2a4;
+  padding: 1rem 2.5rem;
+  border-radius: 0.3rem;
+  border-bottom: 0.3rem solid #0c6151;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #108d76;
+
+  border-bottom: 0.3rem solid #18aa8f;
+}
+.btn-secondary {
+  background: #eb7d4b;
+  border-bottom: 0.3rem solid #c86a40;
+  transition: 0.3s;
+}
+.btn-secondary:hover {
+  background: #a35633da;
+  border-bottom: 0.3rem solid #db6730;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
